@@ -4,8 +4,8 @@ option('enable_libav',
         description : 'Enable the libav encoder for video/audio capture')
 
 option('enable_drm',
-        type : 'disabled',
-        value : 'auto',
+        type : 'feature',
+        value : 'disabled',
         description : 'Enable DRM preview window support')
 
 option('enable_egl',
