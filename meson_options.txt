@@ -15,7 +15,7 @@ option('enable_egl',
 
 option('enable_qt',
         type : 'feature',
-        value : 'auto',
+        value : 'disabled',
         description : 'Enable QT preview window support')
 
 option('enable_opencv',
