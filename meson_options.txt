@@ -9,8 +9,8 @@ option('enable_drm',
         description : 'Enable DRM preview window support')
 
 option('enable_egl',
-        type : 'disabled',
-        value : 'auto',
+        type : 'feature',
+        value : 'disabled',
         description : 'Enable EGL preview window support')
 
 option('enable_qt',
