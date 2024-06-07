@@ -90,6 +90,9 @@ NetOutput::NetOutput(VideoOptions const *options) : Output(options)
 		throw std::runtime_error("unrecognised network protocol " + options->output);
 }
 
+
+  
+
 NetOutput::~NetOutput()
 {
 	close(fd_);
